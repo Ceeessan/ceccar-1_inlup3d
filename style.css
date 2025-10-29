@@ -95,7 +95,7 @@ form{
     border:none;
     border-radius: 2px;
     background-color: rgb(58, 141, 63);
-    color: rgb(237, 237, 237);
+    color: rgb(255, 255, 255);
     transition: background-color 0.3s ease;
 }
 
