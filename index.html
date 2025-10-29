@@ -16,10 +16,10 @@
         <form action="https://swplayground.ltu.se/resources/parse_form.php" method="POST">
             <div class="namn-telefon-kontainer">
                 <label for="namn">Ditt namn:</label>
-                <input type="text" id="namn" name="namn">
+                <input type="text" id="namn" name="namn" required>
                 <!-- Lagt till epost med typen email.. -->
                 <label for="epost">Din e-post:</label>
-                <input type="email" id="epost" name="epost">
+                <input type="email" id="epost" name="epost" required>
                 <!-- Lägger till skarpare validering med pattern som är regex (regular expression) för att bestämma hur formatet ska få se ut. -->
                 <label for="telefon">Telefon:</label>
                 <!-- Ändrade från "number" till "tel" då det tillåter att skriva +46 också -->
@@ -27,7 +27,8 @@
                     type="tel" 
                     id="telefon" 
                     name="telefon"
-                    pattern="[0-9]{8,12}">
+                    pattern="[0-9]{8,12}"
+                    required>
             </div>
         
         
