@@ -34,7 +34,7 @@
         
         <div class="prioritet-kontainer">
             <label for="prioritet">Prioritet:</label>
-            <select name="prioritet" id="prioritet">
+            <select name="prioritet" id="prioritet" required>
                 <option value="1" id="1">Låg</option>
                 <option value="2" id="2">Normal</option>
                 <option value="3" id="3">Hög</option>
@@ -63,7 +63,7 @@
         </div>
 
             <label for="kategori" id="kategoriLabel">Kategori</label>
-            <select name="kategori" id="kategori">
+            <select name="kategori" id="kategori" required>
                 <option value="fakt">Fakturering</option>
                 <option value="net">Internet</option>
                 <option value="tel" >Telefoni</option>
@@ -79,7 +79,7 @@
                 rows="5" 
                 cols="20"
                 minlength="10"
-                ></textarea>
+                required></textarea>
 
             <div class="submit-kontainer">
                 <input type="submit" name="skicka" value="Submit">
