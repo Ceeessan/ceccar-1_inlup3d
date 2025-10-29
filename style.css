@@ -94,13 +94,13 @@ form{
     max-width: 5rem;
     border:none;
     border-radius: 2px;
-    background-color: rgb(89, 129, 172);
+    background-color: rgb(58, 141, 63);
     color: rgb(237, 237, 237);
     transition: background-color 0.3s ease;
 }
 
 .submit-kontainer input:hover{
-    background-color: rgb(94, 140, 188); 
+     background-color: rgb(69, 165, 76);
 }
 
 /* Lägger till en kort bit av @media för att visa möjligheten att ändra storlekar för mobilvy på detta sätt. */
